@@ -152,7 +152,7 @@ if __name__ == "__main__":
         compute_perplexity(dataset, samples, nsamples)
 
     except ValueError:
-        print('# Correct Usage: python pseudo_ppls.py -c <checkpoint> -d <dataset> -s <seed> -n <nsamples> -i <min_length> -x <max_length>')
+        print('# Correct Usage: python pseudo_ppl.py -c <checkpoint> -d <dataset> -s <seed> -n <nsamples> -i <min_length> -x <max_length>')
         print('  > Detailed Arguments:')
         print('    -c/--checkpoint: Hugging Face Checkpoint/Model')
         print('    -d/--dataset: Local Dataset File in CSV Format')
