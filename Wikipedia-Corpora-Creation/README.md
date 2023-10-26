@@ -34,7 +34,7 @@ We automate and integrate all these API calls into the `Gensim` Python library, 
 # Arabic Wikipedia Editions' Corpora
 We host our already extracted, processed, and preprocessed Arabic Wikipedia editions' corpora on the Hugging Face Hub. See the Table below for the details.
 
-| Wikipedia Edition     | Dump File Date | Hugging Face ID |
+| Wikipedia Edition     | Dump File | Hugging Face ID |
 | :----: | :----: |:----: |
-| Modern Standard Arabic (AR)| 01-01-2023 | [SaiedAlshahrani/Arabic\_Wikipedia\_20230101\_bots](https://huggingface.co/datasets/SaiedAlshahrani/Arabic_Wikipedia_20230101_bots)|
+| Modern Standard Arabic (AR)| arwiki-20230101-pages-articles.xml.bz2 | [SaiedAlshahrani/Arabic\_Wikipedia\_20230101\_bots](https://huggingface.co/datasets/SaiedAlshahrani/Arabic_Wikipedia_20230101_bots)|
 | Modern Standard Arabic (AR)| 01-01-2023 | [SaiedAlshahrani/Arabic\_Wikipedia\_20230101\_nobots](https://huggingface.co/datasets/SaiedAlshahrani/Arabic_Wikipedia_20230101_nobots)|
