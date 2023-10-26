@@ -32,7 +32,7 @@ We automate and integrate all these API calls into the `Gensim` Python library, 
 
 
 # Arabic Wikipedia Editions' Corpora
-We host our already extracted, processed, and preprocessed Arabic Wikipedia editions' corpora on the Hugging Face Hub. See the Table below for the details. *We highly recommend creating the Arabic Wikipedia editions' corpora from scratch because we noticed that Hugging Face Datasets are truncating many data points/articles.*
+We host our already extracted, processed, and preprocessed Arabic Wikipedia editions' corpora on the Hugging Face Hub. See the Table below for the details. *We highly recommend creating the Arabic Wikipedia editions' corpora from scratch because we noticed that Hugging Face Datasets are truncating many data points (articles).*
 
 | Wikipedia Edition     | Dump File Date | Hugging Face ID |
 | :----: | :----: |:----: |
