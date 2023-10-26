@@ -37,4 +37,4 @@ We host our already extracted, processed, and preprocessed Arabic Wikipedia edit
 | Wikipedia Edition     | Dump File | Hugging Face ID |
 | :----: | :----: |:----: |
 | Modern Standard Arabic (AR)| arwiki-20230101-pages-articles.xml.bz2 | [SaiedAlshahrani/Arabic\_Wikipedia\_20230101\_bots](https://huggingface.co/datasets/SaiedAlshahrani/Arabic_Wikipedia_20230101_bots)|
-| Modern Standard Arabic (AR)| 01-01-2023 | [SaiedAlshahrani/Arabic\_Wikipedia\_20230101\_nobots](https://huggingface.co/datasets/SaiedAlshahrani/Arabic_Wikipedia_20230101_nobots)|
+| Modern Standard Arabic (AR)| arwiki-20230101-pages-articles.xml.bz2 | [SaiedAlshahrani/Arabic\_Wikipedia\_20230101\_nobots](https://huggingface.co/datasets/SaiedAlshahrani/Arabic_Wikipedia_20230101_nobots)|
