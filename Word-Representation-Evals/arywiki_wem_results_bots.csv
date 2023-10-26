@@ -1,0 +1,16 @@
+Model,Params,File,Accuracy
+arywiki_20230101_w2v_cbow_bots.model,"<vocab_size=72,467, vector_size=300, top_k=1>",ASAD/Arab_States_Analogy_Dataset_All.txt,1.91
+arywiki_20230101_w2v_skipgram_bots.model,"<vocab_size=72,467, vector_size=300, top_k=1>",ASAD/Arab_States_Analogy_Dataset_All.txt,2.11
+arywiki_20230101_fasttext_cbow_bots.model,"<vocab_size=72,467, vector_size=300, top_k=1>",ASAD/Arab_States_Analogy_Dataset_All.txt,1.71
+arywiki_20230101_fasttext_skipgram_bots.model,"<vocab_size=72,467, vector_size=300, top_k=1>",ASAD/Arab_States_Analogy_Dataset_All.txt,3.68
+arywiki_20230101_bots_glove.vectors,"<vocab_size=72,467, vector_size=300, top_k=1>",ASAD/Arab_States_Analogy_Dataset_All.txt,0.13
+arywiki_20230101_w2v_cbow_bots.model,"<vocab_size=72,467, vector_size=300, top_k=5>",ASAD/Arab_States_Analogy_Dataset_All.txt,5.86
+arywiki_20230101_w2v_skipgram_bots.model,"<vocab_size=72,467, vector_size=300, top_k=5>",ASAD/Arab_States_Analogy_Dataset_All.txt,4.01
+arywiki_20230101_fasttext_cbow_bots.model,"<vocab_size=72,467, vector_size=300, top_k=5>",ASAD/Arab_States_Analogy_Dataset_All.txt,4.41
+arywiki_20230101_fasttext_skipgram_bots.model,"<vocab_size=72,467, vector_size=300, top_k=5>",ASAD/Arab_States_Analogy_Dataset_All.txt,9.87
+arywiki_20230101_bots_glove.vectors,"<vocab_size=72,467, vector_size=300, top_k=5>",ASAD/Arab_States_Analogy_Dataset_All.txt,0.53
+arywiki_20230101_w2v_cbow_bots.model,"<vocab_size=72,467, vector_size=300, top_k=10>",ASAD/Arab_States_Analogy_Dataset_All.txt,8.22
+arywiki_20230101_w2v_skipgram_bots.model,"<vocab_size=72,467, vector_size=300, top_k=10>",ASAD/Arab_States_Analogy_Dataset_All.txt,5.92
+arywiki_20230101_fasttext_cbow_bots.model,"<vocab_size=72,467, vector_size=300, top_k=10>",ASAD/Arab_States_Analogy_Dataset_All.txt,6.38
+arywiki_20230101_fasttext_skipgram_bots.model,"<vocab_size=72,467, vector_size=300, top_k=10>",ASAD/Arab_States_Analogy_Dataset_All.txt,14.61
+arywiki_20230101_bots_glove.vectors,"<vocab_size=72,467, vector_size=300, top_k=10>",ASAD/Arab_States_Analogy_Dataset_All.txt,0.66

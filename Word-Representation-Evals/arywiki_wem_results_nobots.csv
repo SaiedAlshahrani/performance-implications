@@ -1,0 +1,16 @@
+Model,Params,File,Accuracy
+arywiki_20230101_w2v_skipgram_nobots.model,"<vocab_size=71,704, vector_size=300, top_k=1>",ASAD/Arab_States_Analogy_Dataset_All.txt,2.11
+arywiki_20230101_w2v_cbow_nobots.model,"<vocab_size=71,704, vector_size=300, top_k=1>",ASAD/Arab_States_Analogy_Dataset_All.txt,1.84
+arywiki_20230101_fasttext_skipgram_nobots.model,"<vocab_size=71,704, vector_size=300, top_k=1>",ASAD/Arab_States_Analogy_Dataset_All.txt,3.62
+arywiki_20230101_fasttext_cbow_nobots.model,"<vocab_size=71,704, vector_size=300, top_k=1>",ASAD/Arab_States_Analogy_Dataset_All.txt,1.97
+arywiki_20230101_nobots_glove.vectors,"<vocab_size=71,704, vector_size=300, top_k=1>",ASAD/Arab_States_Analogy_Dataset_All.txt,0.07
+arywiki_20230101_w2v_skipgram_nobots.model,"<vocab_size=71,704, vector_size=300, top_k=5>",ASAD/Arab_States_Analogy_Dataset_All.txt,3.75
+arywiki_20230101_w2v_cbow_nobots.model,"<vocab_size=71,704, vector_size=300, top_k=5>",ASAD/Arab_States_Analogy_Dataset_All.txt,4.54
+arywiki_20230101_fasttext_skipgram_nobots.model,"<vocab_size=71,704, vector_size=300, top_k=5>",ASAD/Arab_States_Analogy_Dataset_All.txt,9.54
+arywiki_20230101_fasttext_cbow_nobots.model,"<vocab_size=71,704, vector_size=300, top_k=5>",ASAD/Arab_States_Analogy_Dataset_All.txt,4.41
+arywiki_20230101_nobots_glove.vectors,"<vocab_size=71,704, vector_size=300, top_k=5>",ASAD/Arab_States_Analogy_Dataset_All.txt,0.26
+arywiki_20230101_w2v_skipgram_nobots.model,"<vocab_size=71,704, vector_size=300, top_k=10>",ASAD/Arab_States_Analogy_Dataset_All.txt,5.53
+arywiki_20230101_w2v_cbow_nobots.model,"<vocab_size=71,704, vector_size=300, top_k=10>",ASAD/Arab_States_Analogy_Dataset_All.txt,7.11
+arywiki_20230101_fasttext_skipgram_nobots.model,"<vocab_size=71,704, vector_size=300, top_k=10>",ASAD/Arab_States_Analogy_Dataset_All.txt,13.75
+arywiki_20230101_fasttext_cbow_nobots.model,"<vocab_size=71,704, vector_size=300, top_k=10>",ASAD/Arab_States_Analogy_Dataset_All.txt,6.45
+arywiki_20230101_nobots_glove.vectors,"<vocab_size=71,704, vector_size=300, top_k=10>",ASAD/Arab_States_Analogy_Dataset_All.txt,0.39
