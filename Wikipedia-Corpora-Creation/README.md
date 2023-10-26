@@ -38,3 +38,5 @@ We host our already extracted, processed, and preprocessed Arabic Wikipedia edit
 | :----: | :----: |:----: |
 | Modern Standard Arabic (AR)| arwiki-20230101-pages-articles.xml.bz2 | [SaiedAlshahrani/Arabic\_Wikipedia\_20230101\_bots](https://huggingface.co/datasets/SaiedAlshahrani/Arabic_Wikipedia_20230101_bots)|
 | Modern Standard Arabic (AR)| arwiki-20230101-pages-articles.xml.bz2 | [SaiedAlshahrani/Arabic\_Wikipedia\_20230101\_nobots](https://huggingface.co/datasets/SaiedAlshahrani/Arabic_Wikipedia_20230101_nobots)|
+| Egyptian Arabic (AR)| arzwiki-20230101-pages-articles.xml.bz2 | [SaiedAlshahrani/Egyptian\_Arabic\_Wikipedia\_20230101\_bots](https://huggingface.co/datasets/SaiedAlshahrani/Egyptian_Arabic_Wikipedia_20230101_bots)|
+| Egyptian Arabic (AR)| arzwiki-20230101-pages-articles.xml.bz2 | [SaiedAlshahrani/Egyptian\_Arabic\_Wikipedia\_20230101\_nobots](https://huggingface.co/datasets/SaiedAlshahrani/Egyptian_Arabic_Wikipedia_20230101_nobots)|
