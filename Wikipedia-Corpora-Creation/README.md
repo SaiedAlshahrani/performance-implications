@@ -38,3 +38,7 @@ We host our already extracted, processed, and preprocessed Arabic Wikipedia edit
 | ----------- | ----------- |----------- |
 | Modern Standard Arabic (AR)| 01-01-2023 | [SaiedAlshahrani/Arabic\_Wikipedia\_20230101\_bots](https://huggingface.co/datasets/SaiedAlshahrani/Arabic_Wikipedia_20230101_bots)|
 | Modern Standard Arabic (AR)| 01-01-2023 | [SaiedAlshahrani/Arabic\_Wikipedia\_20230101\_nobots](https://huggingface.co/datasets/SaiedAlshahrani/Arabic_Wikipedia_20230101_nobots)|
+
+| Header 1 | Header 2 | Header 3 |
+|---|---|---|
+| Cell 1 | <td colspan="2">Merged cell | Cell 4 |
