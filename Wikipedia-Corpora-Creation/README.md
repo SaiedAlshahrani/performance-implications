@@ -1,6 +1,6 @@
 # Wikipedia Corpora Creation
 
-To create a corpus (extract articles) from a Wikipedia edition/language, you should follow these steps:
+To create a corpus (extract articles) for a Wikipedia edition/language, you should follow these steps:
 
 1- Download a Wikipedia XML Dump file for your desired language from here: [Wikimedia Downloads](https://dumps.wikimedia.org/backup-index.html). You can download the Wikipedia Dump file using `wget` Unix/Linux utility. For example, to download the **Modern Standard Arabic** Wikipedia XML Dump file for the latest backup, use this command in your terminal:
 
@@ -14,7 +14,7 @@ wget https://dumps.wikimedia.org/arwiki/latest/arwiki-latest-pages-articles.xml.
 python wikidump2text.py <wikipedia_xml_dump_bz2_file> <processed_corpus_text_file> 
 ```
 
-3- Once the corpus is extracted, you can use our preprocessing Shell script ([preprocess.sh](https://github.com/SaiedAlshahrani/performance-implications/blob/main/Wikipedia-Corpora-Creation/preprocess.sh)) to preprocess the extracted corpus lightly. The script removes the optional diacritical marks and Latin letters and numbers; it does not do any stemming, lemmatization, or text normalization. The script utilizes the command-line tools of `CAMeL Tools` and `tr` Unix/Linux utility. To run this script, use this command in your terminal and provide it with the name for the extracted corpus file and the desired name for the preprocessed corpus:
+3- Once the corpus is extracted, you can use our preprocessing Shell script ([preprocess.sh](https://github.com/SaiedAlshahrani/performance-implications/blob/main/Wikipedia-Corpora-Creation/preprocess.sh))to preprocess the extracted corpus lightly. The script removes the optional diacritical marks and Latin letters and numbers; it does not do any stemming, lemmatization, or text normalization. The script utilizes the command-line tools of `CAMeL Tools` and `tr` Unix/Linux utility. To run this script, use this command in your terminal and provide it with the name for the extracted corpus file and the desired name for the preprocessed corpus:
 
 ```bash
 bash preprocess.sh <processed_corpus_text_file> <preprocessed_corpus_text_file>
@@ -29,10 +29,7 @@ We automate and integrate all these API calls into the `Gensim` Python library, 
 
 
 **Once the copy and replace is done, you can follow the above steps (1, 2, and 3) to download, extract, process, and preprocess a Wikipedia XML Dump file to create a corpus _without_ bot-generated articles.** 
-<<<<<<< Updated upstream
-=======
 
 
 # Arabic Wikipedia Editions' Corpora
 
->>>>>>> Stashed changes
