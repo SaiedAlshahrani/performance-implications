@@ -29,3 +29,10 @@ We automate and integrate all these API calls into the `Gensim` Python library, 
 
 
 **Once the copy and replace is done, you can follow the above steps (1, 2, and 3) to download, extract, process, and preprocess a Wikipedia XML Dump file to create a corpus _without_ bot-generated articles.** 
+<<<<<<< Updated upstream
+=======
+
+
+# Arabic Wikipedia Editions' Corpora
+
+>>>>>>> Stashed changes
