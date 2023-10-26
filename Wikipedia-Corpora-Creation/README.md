@@ -2,7 +2,7 @@
 
 To create a corpus (extract articles) for a Wikipedia edition/language, you should follow these steps:
 
-1- Download a Wikipedia XML Dump file for your desired language from here: [Wikimedia Downloads](https://dumps.wikimedia.org/backup-index.html). You can download the Wikipedia Dump file using `wget` Unix/Linux utility. To download the Arabic Wikipedia XML Dump file for the latest backup, use this command in your terminal:
+1- Download a Wikipedia XML Dump file for your desired language from here: [Wikimedia Downloads](https://dumps.wikimedia.org/backup-index.html). You can download the Wikipedia Dump file using `wget` Unix/Linux utility. For example, to download the **Arabic** Wikipedia XML Dump file for the latest backup, use this command in your terminal:
 
 ```bash
 wget https://dumps.wikimedia.org/arwiki/latest/arwiki-latest-pages-articles.xml.bz2
