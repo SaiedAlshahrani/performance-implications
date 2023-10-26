@@ -36,8 +36,8 @@ We host our already extracted, processed, and preprocessed Arabic Wikipedia edit
 
 | Wikipedia Edition     | Dump File Date | Hugging Face ID |
 | :----: | :----: |:----: |
-| Modern Standard Wikipedia Arabic (AR)| 01-01-2023 | [SaiedAlshahrani/Arabic\_Wikipedia\_20230101\_bots](https://huggingface.co/datasets/SaiedAlshahrani/Arabic_Wikipedia_20230101_bots)|
-| Modern Standard Wikipedia Arabic (AR)| 01-01-2023 | [SaiedAlshahrani/Arabic\_Wikipedia\_20230101\_nobots](https://huggingface.co/datasets/SaiedAlshahrani/Arabic_Wikipedia_20230101_nobots)|
+| Modern Standard Arabic Wikipedia (AR)| 01-01-2023 | [SaiedAlshahrani/Arabic\_Wikipedia\_20230101\_bots](https://huggingface.co/datasets/SaiedAlshahrani/Arabic_Wikipedia_20230101_bots)|
+| Modern Standard Arabic Wikipedia (AR)| 01-01-2023 | [SaiedAlshahrani/Arabic\_Wikipedia\_20230101\_nobots](https://huggingface.co/datasets/SaiedAlshahrani/Arabic_Wikipedia_20230101_nobots)|
 | Egyptian Arabic Wikipedia (ARZ)| 01-01-2023 | [SaiedAlshahrani/Egyptian\_Arabic\_Wikipedia\_20230101](https://huggingface.co/datasets/SaiedAlshahrani/Egyptian_Arabic_Wikipedia_20230101)|
 | Moroccan Arabic Wikipedia (ARY)| 01-01-2023 | [SaiedAlshahrani/Moroccan\_Arabic\_Wikipedia\_20230101\_bots](https://huggingface.co/datasets/SaiedAlshahrani/Moroccan_Arabic_Wikipedia_20230101_bots)|
 | Moroccan Arabic Wikipedia (ARY)| 01-01-2023 | [SaiedAlshahrani/Moroccan\_Arabic\_Wikipedia\_20230101\_nobots](https://huggingface.co/datasets/SaiedAlshahrani/Moroccan_Arabic_Wikipedia_20230101_nobots)|
