@@ -19,3 +19,10 @@ python wikidump2text.py <wikipedia_xml_dump_bz2_file> <processed_corpus_text_fil
 ```bash
 bash preprocess.sh <processed_corpus_text_file> <preprocessed_corpus_text_file>
 ```
+
+### Bot-generated Articles Exclusion:
+We excluded all the bot-generated articles from the Modern Standard Arabic and Arabic Moroccan Wikipedia editions.
+
+
+
+
