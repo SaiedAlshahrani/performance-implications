@@ -20,8 +20,8 @@ python wikidump2text.py <wikipedia_xml_dump_bz2_file> <processed_corpus_text_fil
 bash preprocess.sh <processed_corpus_text_file> <preprocessed_corpus_text_file>
 ```
 
-### Bot-generated Articles Exclusion:
-We exclude all the bot-generated articles from the Modern Standard Arabic and Arabic Moroccan Wikipedia editions. We use Wikimedia [XTools](https://www.mediawiki.org/wiki/XTools) API to identify Wikipedia articles’ authors and use Wikipedia’s “[List Users](https://en.wikipedia.org/wiki/Special:ListUsers)” service to retrieve the full list of bots in the targeted Wikipedia edition (*Do not forget to change the Wikipedia code accordingly; it is `en` for the English Wikipedia in the link above*) to disclose and remove the articles whose authors are in the bots list.
+### Bot-generated Articles Exclusion: 
+We exclude all the bot-generated articles from the Modern Standard Arabic and Arabic Moroccan Wikipedia editions. We use Wikimedia [XTools](https://www.mediawiki.org/wiki/XTools) API to identify Wikipedia articles’ authors and use Wikipedia’s “[List Users](https://ar.wikipedia.org/wiki/خاص:عرض_المستخدمين)” service to retrieve the full list of bots in the targeted Wikipedia edition (*Do not forget to change the Wikipedia code accordingly; it is `ar` for the Modern Standard Arabic Wikipedia in the link above*) to disclose and remove the articles whose authors are in the bots list.
 
 
 
