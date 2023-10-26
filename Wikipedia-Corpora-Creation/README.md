@@ -32,4 +32,4 @@ We automate and integrate all these API calls into the `Gensim` Python library, 
 
 
 # Arabic Wikipedia Editions' Corpora
-
+We host our already extracted, processed, and preprocessed Arabic Wikipedia editions' Corpora.
