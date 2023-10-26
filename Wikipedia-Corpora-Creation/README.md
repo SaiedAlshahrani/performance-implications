@@ -23,7 +23,7 @@ bash preprocess.sh <processed_corpus_text_file> <preprocessed_corpus_text_file>
 ### Bot-generated Articles Exclusion: 
 _*You should use a Python virtual environment for this experiment._
 
-We exclude all the bot-generated articles from the Modern Standard Arabic and Arabic Moroccan Wikipedia editions. We use Wikimedia [XTools](https://www.mediawiki.org/wiki/XTools) API to identify Wikipedia articles’ authors and use Wikipedia’s “[List Users](https://ar.wikipedia.org/wiki/خاص:عرض_المستخدمين)” service to retrieve the full list of bots in the targeted Wikipedia edition (*Do not forget to change the Wikipedia code accordingly; it is `ar` for the Modern Standard Arabic Wikipedia in the link above*) to disclose and remove the articles whose authors are in the bots list. 
+We exclude all the bot-generated articles from the Modern Standard Arabic and Moroccan Arabic Wikipedia editions. We use Wikimedia [XTools](https://www.mediawiki.org/wiki/XTools) API to identify Wikipedia articles’ authors and use Wikipedia’s “[List Users](https://ar.wikipedia.org/wiki/خاص:عرض_المستخدمين)” service to retrieve the full list of bots in the targeted Wikipedia edition (*Do not forget to change the Wikipedia code accordingly; it is `ar` for the Modern Standard Arabic Wikipedia in the link above*) to disclose and remove the articles whose authors are in the bots list. 
 
 We automate and integrate all these API calls into the `Gensim` Python library, specifically in its [corpora.wikicorpus](https://radimrehurek.com/gensim/corpora/wikicorpus.html) module. You only need to copy (and replace) our modified version of [wikicorpus.py](https://github.com/SaiedAlshahrani/performance-implications/blob/main/Wikipedia-Corpora-Creation/wikicorpus.py) to the `Gensim`'s local directory; it is usually part of this path (`///python*.**/site-packages/gensim/corpora/wikicorpus.py`).
 
@@ -38,5 +38,7 @@ We host our already extracted, processed, and preprocessed Arabic Wikipedia edit
 | :----: | :----: |:----: |
 | Modern Standard Arabic (AR)| 01-01-2023 | [SaiedAlshahrani/Arabic\_Wikipedia\_20230101\_bots](https://huggingface.co/datasets/SaiedAlshahrani/Arabic_Wikipedia_20230101_bots)|
 | Modern Standard Arabic (AR)| 01-01-2023 | [SaiedAlshahrani/Arabic\_Wikipedia\_20230101\_nobots](https://huggingface.co/datasets/SaiedAlshahrani/Arabic_Wikipedia_20230101_nobots)|
-| Egyptian Arabic (AR)| 01-01-2023 | [SaiedAlshahrani/Egyptian\_Arabic\_Wikipedia\_20230101\_bots](https://huggingface.co/datasets/SaiedAlshahrani/Egyptian_Arabic_Wikipedia_20230101_bots)|
-| Egyptian Arabic (AR)| 01-01-2023 | [SaiedAlshahrani/Egyptian\_Arabic\_Wikipedia\_20230101\_nobots](https://huggingface.co/datasets/SaiedAlshahrani/Egyptian_Arabic_Wikipedia_20230101_nobots)|
+| Egyptian Arabic (ARZ)| 01-01-2023 | [SaiedAlshahrani/Egyptian\_Arabic\_Wikipedia\_20230101\_bots](https://huggingface.co/datasets/SaiedAlshahrani/Egyptian_Arabic_Wikipedia_20230101_bots)|
+| Egyptian Arabic (ARZ)| 01-01-2023 | [SaiedAlshahrani/Egyptian\_Arabic\_Wikipedia\_20230101\_nobots](https://huggingface.co/datasets/SaiedAlshahrani/Egyptian_Arabic_Wikipedia_20230101_nobots)|
+| Moroccan Arabic (ARZ)| 01-01-2023 | [SaiedAlshahrani/Moroccan\_Arabic\_Wikipedia\_20230101\_bots](https://huggingface.co/datasets/SaiedAlshahrani/Moroccan_Arabic_Wikipedia_20230101_bots)|
+| Moroccan Arabic (ARZ)| 01-01-2023 | [SaiedAlshahrani/Moroccan\_Arabic\_Wikipedia\_20230101\_nobots](https://huggingface.co/datasets/SaiedAlshahrani/Moroccan_Arabic_Wikipedia_20230101_nobots)|
