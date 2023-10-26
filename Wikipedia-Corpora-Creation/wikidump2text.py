@@ -28,7 +28,7 @@ def make_corpus(input_file, output_file):
 
 if __name__ == '__main__':
 	if len(sys.argv) != 3:
-		print('Usage: python wikidump2text.py <wikipedia_dump_bz2_file> <processed_text_file>')
+		print('Usage: python wikidump2text.py <wikipedia_xml_dump_bz2_file> <processed_corpus_text_file>')
 		sys.exit(1)
 
 	input_file = sys.argv[1]
