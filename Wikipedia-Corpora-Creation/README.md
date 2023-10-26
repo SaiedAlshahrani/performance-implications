@@ -1,6 +1,6 @@
 # Wikipedia Corpora Creation
 
-To create a corpus (extract articles) for a Wikipedia edition/language, you should follow these steps:
+To create a corpus (extract articles) from a Wikipedia edition/language, you should follow these steps:
 
 1- Download a Wikipedia XML Dump file for your desired language from here: [Wikimedia Downloads](https://dumps.wikimedia.org/backup-index.html). You can download the Wikipedia Dump file using `wget` Unix/Linux utility. For example, to download the **Modern Standard Arabic** Wikipedia XML Dump file for the latest backup, use this command in your terminal:
 
