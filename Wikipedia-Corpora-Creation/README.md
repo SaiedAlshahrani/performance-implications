@@ -21,9 +21,7 @@ bash preprocess.sh <processed_corpus_text_file> <preprocessed_corpus_text_file>
 ```
 
 ### Bot-generated Articles Exclusion: 
-We exclude all the bot-generated articles from the Modern Standard Arabic and Arabic Moroccan Wikipedia editions. We use Wikimedia [XTools](https://www.mediawiki.org/wiki/XTools) API to identify Wikipedia articles’ authors and use Wikipedia’s “[List Users](https://ar.wikipedia.org/wiki/خاص:عرض_المستخدمين)” service to retrieve the full list of bots in the targeted Wikipedia edition (*Do not forget to change the Wikipedia code accordingly; it is `ar` for the Modern Standard Arabic Wikipedia in the link above*) to disclose and remove the articles whose authors are in the bots list.
-
-
+We exclude all the bot-generated articles from the Modern Standard Arabic and Arabic Moroccan Wikipedia editions. We use Wikimedia [XTools](https://www.mediawiki.org/wiki/XTools) API to identify Wikipedia articles’ authors and use Wikipedia’s “[List Users](https://ar.wikipedia.org/wiki/خاص:عرض_المستخدمين)” service to retrieve the full list of bots in the targeted Wikipedia edition (*Do not forget to change the Wikipedia code accordingly; it is `ar` for the Modern Standard Arabic Wikipedia in the link above*) to disclose and remove the articles whose authors are in the bots list. We automate and integrate all these API calls into the `Gensim` Python library, specifically in its `corpora.wikicorpus` module (see [wikicorpus.py](https://github.com/SaiedAlshahrani/performance-implications/blob/main/Wikipedia-Corpora-Creation/wikicorpus.py)). You only need to copy and replace [wikicorpus.py](https://github.com/SaiedAlshahrani/performance-implications/blob/main/Wikipedia-Corpora-Creation/wikicorpus.py) to the `Gensim`'s local directory; it is usually part of this path (`///python*.**/site-packages/gensim/corpora/wikicorpus.py`). ***You should use a Python virtual environment for this experience***.
 
 
 
