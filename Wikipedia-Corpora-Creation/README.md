@@ -28,8 +28,8 @@ We exclude all the bot-generated articles from the Modern Standard Arabic and Ar
 We automate and integrate all these API calls into the `Gensim` Python library, specifically in its [corpora.wikicorpus](https://radimrehurek.com/gensim/corpora/wikicorpus.html) module. You only need to copy (and replace) our modified version of [wikicorpus.py](https://github.com/SaiedAlshahrani/performance-implications/blob/main/Wikipedia-Corpora-Creation/wikicorpus.py) to the `Gensim`'s local directory; it is usually part of this path (`///python*.**/site-packages/gensim/corpora/wikicorpus.py`).
 
 
-**Once the copy and replace is done, you can follow the above steps (1, 2, and 3) to download, extract, process, and preprocess a Wikipedia XML Dump file to create a corpus _without_ bot-generated articles.** 
+> **Once the copy and replace is done, you can follow the above steps (1, 2, and 3) to download, extract, process, and preprocess a Wikipedia XML Dump file to create a corpus _without_ bot-generated articles.** 
 
 
-# Hosted Arabic Wikipedia Editions' Corpora
-We host our already extracted, processed, and preprocessed Arabic Wikipedia editions' corpora on the Hugging Face Hub. 
+# Arabic Wikipedia Editions' Corpora
+We host our already extracted, processed, and preprocessed Arabic Wikipedia editions' corpora on the Hugging Face Hub. See the Table below for the details.
