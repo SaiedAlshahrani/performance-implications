@@ -14,7 +14,7 @@ wget https://dumps.wikimedia.org/arwiki/latest/arwiki-latest-pages-articles.xml.
 python wikidump2text.py <wikipedia_xml_dump_bz2_file> <processed_corpus_text_file> 
 ```
 
-3- Once the corpus is extracted, you can use our preprocessing Shell script ([preprocess.sh](https://github.com/SaiedAlshahrani/performance-implications/blob/main/Wikipedia-Corpora-Creation/preprocess.sh))to preprocess the extracted corpus lightly. The script removes the optional diacritical marks and Latin letters and numbers; it does not do any stemming, lemmatization, or text normalization. The script utilizes the command-line tools of `CAMeL Tools` and `tr` Unix/Linux utility. To run this script, use this command in your terminal and provide it with the name for the extracted corpus file and the desired name for the preprocessed corpus:
+3- Once the corpus is extracted, you can use our preprocessing Shell script ([preprocess.sh](https://github.com/SaiedAlshahrani/performance-implications/blob/main/Wikipedia-Corpora-Creation/preprocess.sh)) to preprocess the extracted corpus lightly. The script removes the optional diacritical marks and Latin letters and numbers; it does not do any stemming, lemmatization, or text normalization. The script utilizes the command-line tools of `CAMeL Tools` and `tr` Unix/Linux utility. To run this script, use this command in your terminal and provide it with the name for the extracted corpus file and the desired name for the preprocessed corpus:
 
 ```bash
 bash preprocess.sh <processed_corpus_text_file> <preprocessed_corpus_text_file>
