@@ -14,7 +14,7 @@ python word2vec_train.py <wikipedia_dump_text_file> <word2vec_algorithm:0->cbow,
 
 2- **fastText (continuous bag of words (cbow) and skip-gram)**: 
 
-You can train these two variants of the Word2Vec algorithm using `Gensim` Python library, or you can use our training script ([fasttext_train.py](https://github.com/SaiedAlshahrani/performance-implications/blob/main/Word-Representation-Evals/Training-Scripts/fastText/fasttext_train.py)). To run this script, use this command in your terminal and provide it with the preprocessed Wikipedia corpus text file, the selected variant of Word2Vec (0 ---> cbow and 1 ---> skip-gram), the desired name for the model file, and the desired name for the vectors file.
+You can train these two variants of the fastText algorithm using `Gensim` Python library, or you can use our training script ([fasttext_train.py](https://github.com/SaiedAlshahrani/performance-implications/blob/main/Word-Representation-Evals/Training-Scripts/fastText/fasttext_train.py)). To run this script, use this command in your terminal and provide it with the preprocessed Wikipedia corpus text file, the selected variant of fastText (0 ---> cbow and 1 ---> skip-gram), the desired name for the model file, and the desired name for the vectors file.
 
 ```bash
 python fasttext_train.py <wikipedia_dump_text_file> <word2vec_algorithm:0->cbow,1->skip-gram> <save_bin_model> <save_model_vectors>
