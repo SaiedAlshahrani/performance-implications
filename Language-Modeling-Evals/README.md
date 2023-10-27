@@ -8,11 +8,11 @@ We have trained **5 RoBERTa** MLMs for this experiment, and due to the huge size
 
 | Wikipedia Edition     | Model Name | Hugging Face Link |
 | :----: | :----: |:----: |
-| Modern Standard Arabic Wikipedia (AR)| arRoBERTa<sub>base</sub> | [SaiedAlshahrani/arwiki\_20230101\_roberta\_mlm\_bots](https://huggingface.co/SaiedAlshahrani/arwiki_20230101_roberta_mlm_bots)|
-| Modern Standard Arabic Wikipedia (AR)| arRoBERTa<sub>base</sub> | [SaiedAlshahrani/arwiki\_20230101\_roberta\_mlm\_nobots](https://huggingface.co/SaiedAlshahrani/arwiki_20230101_roberta_mlm_nobots)|
-| Egyptian Arabic Wikipedia (ARZ)| arzRoBERTa<sub>base</sub> | [SaiedAlshahrani/arzwiki\_20230101\_roberta\_mlm](https://huggingface.co/SaiedAlshahrani/arzwiki_20230101_roberta_mlm)|
-| Moroccan Arabic Wikipedia (ARY)| aryRoBERTa<sub>base</sub> | [SaiedAlshahrani/arywiki\_20230101\_roberta\_mlm\_bots](https://huggingface.co/SaiedAlshahrani/arywiki_20230101_roberta_mlm_nobots)|
-| Moroccan Arabic Wikipedia (ARY)| aryRoBERTa<sub>base</sub> | [SaiedAlshahrani/arywiki\_20230101\_roberta\_mlm\_bots](https://huggingface.co/SaiedAlshahrani/arywiki_20230101_roberta_mlm_nobots)|
+| Modern Standard Arabic Wikipedia (AR)| arRoBERTa<sub>BASE</sub> | [SaiedAlshahrani/arwiki\_20230101\_roberta\_mlm\_bots](https://huggingface.co/SaiedAlshahrani/arwiki_20230101_roberta_mlm_bots)|
+| Modern Standard Arabic Wikipedia (AR)| arRoBERTa<sub>BASE</sub> | [SaiedAlshahrani/arwiki\_20230101\_roberta\_mlm\_nobots](https://huggingface.co/SaiedAlshahrani/arwiki_20230101_roberta_mlm_nobots)|
+| Egyptian Arabic Wikipedia (ARZ)| arzRoBERTa<sub>BASE</sub> | [SaiedAlshahrani/arzwiki\_20230101\_roberta\_mlm](https://huggingface.co/SaiedAlshahrani/arzwiki_20230101_roberta_mlm)|
+| Moroccan Arabic Wikipedia (ARY)| aryRoBERTa<sub>BASE</sub> | [SaiedAlshahrani/arywiki\_20230101\_roberta\_mlm\_bots](https://huggingface.co/SaiedAlshahrani/arywiki_20230101_roberta_mlm_nobots)|
+| Moroccan Arabic Wikipedia (ARY)| aryRoBERTa<sub>BASE</sub> | [SaiedAlshahrani/arywiki\_20230101\_roberta\_mlm\_bots](https://huggingface.co/SaiedAlshahrani/arywiki_20230101_roberta_mlm_nobots)|
 
  
 ### Evaluation Pipeline:
