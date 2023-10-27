@@ -10,8 +10,8 @@ We have trained **5 RoBERTa** MLMs for this experiment, and due to the huge size
 | :----: | :----: |:----: |
 | Modern Standard Arabic Wikipedia (AR)| arRoBERTa-base | [SaiedAlshahrani/arwiki\_20230101\_roberta\_mlm\_bots](https://huggingface.co/SaiedAlshahrani/arwiki_20230101_roberta_mlm_bots)|
 | Modern Standard Arabic Wikipedia (AR)| arRoBERTa-base | [SaiedAlshahrani/arwiki\_20230101\_roberta\_mlm\_nobots](https://huggingface.co/SaiedAlshahrani/arwiki_20230101_roberta_mlm_nobots)|
-| Egyptian Arabic Wikipedia (ARZ)| arzRoBERTa~base~ | [SaiedAlshahrani/arzwiki\_20230101\_roberta\_mlm](https://huggingface.co/SaiedAlshahrani/arzwiki_20230101_roberta_mlm)|
-| Moroccan Arabic Wikipedia (ARY)| aryRoBERTa~base~ | [SaiedAlshahrani/arywiki\_20230101\_roberta\_mlm\_bots](https://huggingface.co/SaiedAlshahrani/arywiki_20230101_roberta_mlm_nobots)|
+| Egyptian Arabic Wikipedia (ARZ)| arzRoBERTa-base | [SaiedAlshahrani/arzwiki\_20230101\_roberta\_mlm](https://huggingface.co/SaiedAlshahrani/arzwiki_20230101_roberta_mlm)|
+| Moroccan Arabic Wikipedia (ARY)| aryRoBERTa-base | [SaiedAlshahrani/arywiki\_20230101\_roberta\_mlm\_bots](https://huggingface.co/SaiedAlshahrani/arywiki_20230101_roberta_mlm_nobots)|
 | Moroccan Arabic Wikipedia (ARY)| aryRoBERTa-base | [SaiedAlshahrani/arywiki\_20230101\_roberta\_mlm\_bots](https://huggingface.co/SaiedAlshahrani/arywiki_20230101_roberta_mlm_nobots)|
 
  
