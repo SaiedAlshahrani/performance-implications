@@ -1,5 +1,5 @@
 # Arab States Analogy Dataset (ASAD)
-We share our Arab States Analogy Dataset (ASAD), which consists of *four* sets: country-capital set, country-currency set, country-nationality set, and country-continent set. Each set has **380** word analogies, and the ASAD dataset's total number of word analogies is **1520**. Please read the paper for more details about the ASAD dataset. 
+We share our Arab States Analogy Dataset (ASAD), which consists of *four* sets: country-capital set, country-currency set, country-nationality set, and country-continent set. Each set has **380** word analogies, and the ASAD dataset's total number of word analogies is **1520**. *Please read the paper for more details about the ASAD dataset*. 
 
 The ASAD dataset consists of *five* text files, one for each set mentioned above and one text file for all the sets combined. You can load the ASAD dataset using `Pandas` Python library directly or load the hosted version of the ASAD dataset on the Hugging Face Hub at [SaiedAlshahrani/ASAD](https://huggingface.co/datasets/SaiedAlshahrani/ASAD).
 
