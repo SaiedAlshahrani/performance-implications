@@ -1,4 +1,0 @@
-Model,Params,File,Accuracy
-arwiki_20230101_roberta_mlm_nobots,"<vocab_size=52,000, vector_size=514, top_k=10>",MASD/Masked_Arab_States_Dataset_All.csv,45.62
-arwiki_20230101_roberta_mlm_nobots,"<vocab_size=52,000, vector_size=514, top_k=50>",MASD/Masked_Arab_States_Dataset_All.csv,51.25
-arwiki_20230101_roberta_mlm_nobots,"<vocab_size=52,000, vector_size=514, top_k=100>",MASD/Masked_Arab_States_Dataset_All.csv,53.12
