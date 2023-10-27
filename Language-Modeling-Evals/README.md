@@ -6,14 +6,14 @@ We evaluate the **performance** of the Masked Language Models (MLMs) using the F
 ### Masked Language Models (MLMs):
 We have trained **5 RoBERTa** MLMs for this experiment, and due to the huge size of these models, we could **not** share them with the community. However, we have hosted them on the Hugging Face Hub. See the Table below for the details. We also evaluate these MLMs using the *Pseudo-Perplexity* metric and share the evaluation process and results here at [Pseudo-Perplexity-Evals](https://github.com/SaiedAlshahrani/performance-implications/tree/main/Language-Modeling-Evals/Pseudo-Perplexity-Evals).
 
-| Wikipedia Edition     | Dump File Date | Hugging Face Link |
+| Wikipedia Edition     | Model Name | Hugging Face Link |
 | :----: | :----: |:----: |
-| Modern Standard Arabic Wikipedia (AR)| 01-01-2023 | [SaiedAlshahrani/Arabic\_Wikipedia\_20230101\_bots](https://huggingface.co/datasets/SaiedAlshahrani/Arabic_Wikipedia_20230101_bots)|
-| Modern Standard Arabic Wikipedia (AR)| 01-01-2023 | [SaiedAlshahrani/Arabic\_Wikipedia\_20230101\_nobots](https://huggingface.co/datasets/SaiedAlshahrani/Arabic_Wikipedia_20230101_nobots)|
-| Egyptian Arabic Wikipedia (ARZ)| 01-01-2023 | [SaiedAlshahrani/Egyptian\_Arabic\_Wikipedia\_20230101](https://huggingface.co/datasets/SaiedAlshahrani/Egyptian_Arabic_Wikipedia_20230101)|
-| Moroccan Arabic Wikipedia (ARY)| 01-01-2023 | [SaiedAlshahrani/Moroccan\_Arabic\_Wikipedia\_20230101\_bots](https://huggingface.co/datasets/SaiedAlshahrani/Moroccan_Arabic_Wikipedia_20230101_bots)|
-| Moroccan Arabic Wikipedia (ARY)| 01-01-2023 | [SaiedAlshahrani/Moroccan\_Arabic\_Wikipedia\_20230101\_nobots](https://huggingface.co/datasets/SaiedAlshahrani/Moroccan_Arabic_Wikipedia_20230101_nobots)|
+| Modern Standard Arabic Wikipedia (AR)| arRoBERTa-base | [SaiedAlshahrani/arwiki\_20230101\_roberta\_mlm\_bots](https://huggingface.co/datasets/SaiedAlshahrani/arwiki_20230101_roberta_mlm_bots)|
+| Modern Standard Arabic Wikipedia (AR)| arRoBERTa-base | [SaiedAlshahrani/arwiki\_20230101\_roberta\_mlm\_nobots](https://huggingface.co/datasets/SaiedAlshahrani/arwiki_20230101_roberta_mlm_nobots)|
+| Egyptian Arabic Wikipedia (ARZ)| arzRoBERTa-base | [SaiedAlshahrani/arzwiki\_20230101\_roberta\_mlm](https://huggingface.co/datasets/SaiedAlshahrani/arzwiki_20230101_roberta_mlm_bots)|
+| Moroccan Arabic Wikipedia (ARY)| aryRoBERTa-base | [SaiedAlshahrani/arywiki\_20230101\_roberta\_mlm\_bots](https://huggingface.co/datasets/SaiedAlshahrani/arywiki_20230101_roberta_mlm_nobots)|
+| Moroccan Arabic Wikipedia (ARY)| aryRoBERTa-base | [SaiedAlshahrani/arywiki\_20230101\_roberta\_mlm\_bots](https://huggingface.co/datasets/SaiedAlshahrani/arywiki_20230101_roberta_mlm_nobots)|
 
  
 ### Evaluation Pipeline:
-We share our **evaluation pipeline** of the Language Modeling upstream task, including the implementation of the Fill-Mask evaluation task process and the generic search algorithm that takes any Arabic word and then searches for all its possible Arabic variants (*only* Alefs, Alef Maksura, and Teh Marbuta variants). All are available at [mlm_utils.py](https://github.com/SaiedAlshahrani/performance-implications/blob/main/Language-Modeling-Evals/mlm_utils.py). We also share the Word Representation evaluations of our WEMs here at [Language-Modeling-Task.ipynb](https://github.com/SaiedAlshahrani/performance-implications/blob/main/Language-Modeling-Evals/Language-Modeling-Task.ipynb).
+We share our **evaluation pipeline** of the Language Modeling upstream task, including the implementation of the Fill-Mask evaluation task process and the generic search algorithm that takes any Arabic word and then searches for all its possible Arabic variants (*only* Alefs, Alef Maksura, and Teh Marbuta variants). All are available at [mlm_utils.py](https://github.com/SaiedAlshahrani/performance-implications/blob/main/Language-Modeling-Evals/mlm_utils.py). We also share the Language Modeling evaluations of our MLMs here at [Language-Modeling-Task.ipynb](https://github.com/SaiedAlshahrani/performance-implications/blob/main/Language-Modeling-Evals/Language-Modeling-Task.ipynb).
