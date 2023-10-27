@@ -4,8 +4,15 @@ We evaluate the **performance** of the Masked Language Models (MLMs) using the F
 
 
 ### Masked Language Models (MLMs):
-We have trained **5 RoBERTa** MLMs for this experiment, and due to the huge size of these models, we could **not** share them with the community. However, we have hosted them on the Hugging Face Hub. See the Table below for the details. We also evaluate these MLMs using the *Pseudo-Perplexity* metric and share the evaluation process and results here at [Pseudo-Perplexity Evaluations](https://github.com/SaiedAlshahrani/performance-implications/tree/main/Language-Modeling-Evals/Pseudo-Perplexity-Evals).
+We have trained **5 RoBERTa** MLMs for this experiment, and due to the huge size of these models, we could **not** share them with the community. However, we have hosted them on the Hugging Face Hub. See the Table below for the details. We also evaluate these MLMs using the *Pseudo-Perplexity* metric and share the evaluation process and results here at [Pseudo-Perplexity-Evals](https://github.com/SaiedAlshahrani/performance-implications/tree/main/Language-Modeling-Evals/Pseudo-Perplexity-Evals).
 
+| Wikipedia Edition     | Dump File Date | Hugging Face Link |
+| :----: | :----: |:----: |
+| Modern Standard Arabic Wikipedia (AR)| 01-01-2023 | [SaiedAlshahrani/Arabic\_Wikipedia\_20230101\_bots](https://huggingface.co/datasets/SaiedAlshahrani/Arabic_Wikipedia_20230101_bots)|
+| Modern Standard Arabic Wikipedia (AR)| 01-01-2023 | [SaiedAlshahrani/Arabic\_Wikipedia\_20230101\_nobots](https://huggingface.co/datasets/SaiedAlshahrani/Arabic_Wikipedia_20230101_nobots)|
+| Egyptian Arabic Wikipedia (ARZ)| 01-01-2023 | [SaiedAlshahrani/Egyptian\_Arabic\_Wikipedia\_20230101](https://huggingface.co/datasets/SaiedAlshahrani/Egyptian_Arabic_Wikipedia_20230101)|
+| Moroccan Arabic Wikipedia (ARY)| 01-01-2023 | [SaiedAlshahrani/Moroccan\_Arabic\_Wikipedia\_20230101\_bots](https://huggingface.co/datasets/SaiedAlshahrani/Moroccan_Arabic_Wikipedia_20230101_bots)|
+| Moroccan Arabic Wikipedia (ARY)| 01-01-2023 | [SaiedAlshahrani/Moroccan\_Arabic\_Wikipedia\_20230101\_nobots](https://huggingface.co/datasets/SaiedAlshahrani/Moroccan_Arabic_Wikipedia_20230101_nobots)|
 
  
 ### Evaluation Pipeline:
