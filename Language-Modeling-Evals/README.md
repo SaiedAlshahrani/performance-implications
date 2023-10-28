@@ -6,7 +6,7 @@ We evaluate the **performance** of the Masked Language Models (MLMs) using the F
 ### Masked Language Models (MLMs):
 We have trained **5 RoBERTa<sub>BASE</sub>** MLMs for this experiment, and due to the huge size of these models, we could **not** share them with the community. However, we share our training scripts here at [MLMs-Training-Scripts](https://github.com/SaiedAlshahrani/performance-implications/tree/main/Language-Modeling-Evals/MLMs-Training-Scripts) for these models and provide detailed documentation on the creation of Wikipedia corpora that can be found here at [Wikipedia-Corpora-Creation](https://github.com/SaiedAlshahrani/performance-implications/tree/main/Wikipedia-Corpora-Creation).
 
-We have hosted them on the Hugging Face Hub. See the Table below for the details. We also evaluate these MLMs using the *Pseudo-Perplexity* metric and share the evaluation process and results here at [Pseudo-Perplexity-Evals](https://github.com/SaiedAlshahrani/performance-implications/tree/main/Language-Modeling-Evals/Pseudo-Perplexity-Evals).
+We have hosted them on the Hugging Face Hub (see the Table below for the details). We also evaluate these MLMs using the *Pseudo-Perplexity* metric and share the evaluation process and results here at [Pseudo-Perplexity-Evals](https://github.com/SaiedAlshahrani/performance-implications/tree/main/Language-Modeling-Evals/Pseudo-Perplexity-Evals).
 
 | Wikipedia Edition     | Model Name | Hugging Face Link |
 | :----: | :----: |:----: |
