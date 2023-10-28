@@ -1,5 +1,5 @@
-# Training Scripts
-We share our Python training scripts of three context-independent word embedding algorithms and their variants. We have trained *five* models for each Arabic Wikipedia edition (Modern Standard Arabic, Egyptian Arabic, and Moroccan Arabic). You can follow these steps to replicate the training of the word embedding models. 
+# WEMs Training Scripts
+We share our Python training scripts of three context-independent word embedding algorithms and their variants. We have trained *five* Word Embedding Models (WEMs) for each Arabic Wikipedia edition (Modern Standard Arabic, Egyptian Arabic, and Moroccan Arabic). You can follow these steps to replicate the training of the word embedding models. 
 
 > We set these unified parameters of the three algorithms to these values: {*vector-size*=300, *epochs*=20, *window-size*=2, *min-count*=1, *alpha*=0.03}.
 
