@@ -6,10 +6,8 @@ We, in this repository, share with the community our evaluation scripts for ([Wo
 @inproceedings{alshahrani-etal-2023-implications,
     title = "{{Performance Implications of Using Unrepresentative 
     		   Corpora in Arabic Natural Language Processing}}",
-    author = "Alshahrani, Saied  and      
-              Alshahrani, Norah  and
-              Dey, Soumyabrata   and
-		      Matthews, Jeanna",
+    author = "Alshahrani, Saied and Alshahrani, Norah  and
+              Dey, Soumyabrata and Matthews, Jeanna",
     booktitle = "Proceedings of the The First Arabic Natural Language Processing Conference
                  (ArabicNLP 2023)",
     month = dec,
