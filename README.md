@@ -14,7 +14,7 @@ Wikipedia articles are a widely used source of training data for Natural Languag
     title = "{{Performance Implications of Using Unrepresentative Corpora in Arabic Natural Language Processing}}",
     author = "Alshahrani, Saied and Alshahrani, Norah and Dey, Soumyabrata and Matthews, Jeanna",
     booktitle = "Proceedings of the The First Arabic Natural Language Processing Conference (ArabicNLP 2023)",
-    month = dec,
+    month = Dec,
     year = "2023",
     address = "Singapore (Hybrid)",
     publisher = "Association for Computational Linguistics",
