@@ -2,6 +2,7 @@
 Creates a corpus from Wikipedia dump file.
 Inspired by:
 https://github.com/panyang/Wikipedia_Word2vec/blob/master/v1/process_wiki.py
+And https://github.com/rainermesi/wiki_Parse/blob/master/make_wiki_corpus.py
 """
 
 import sys , warnings
